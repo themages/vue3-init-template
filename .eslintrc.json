@@ -11,8 +11,7 @@
         "plugin:vue/vue3-recommended",
         "standard-with-typescript"
     ],
-    "overrides": [
-    ],
+    "overrides": [],
     "parserOptions": {
         "project": ["**/tsconfig.json"],
         "extraFileExtensions": [".vue"],

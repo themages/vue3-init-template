@@ -20,6 +20,6 @@
     "skipLibCheck": true,
     "noEmit": true,
   },
-  "include": ["src"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "/.eslintrc.json"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
