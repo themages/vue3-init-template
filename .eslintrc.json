@@ -1,0 +1,60 @@
+{
+    "root": true,
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "globals": {},
+    "extends": [
+        "plugin:vue/vue3-essential",
+        "plugin:vue/vue3-recommended",
+        "standard-with-typescript"
+    ],
+    "overrides": [
+    ],
+    "parserOptions": {
+        "project": ["**/tsconfig.json"],
+        "extraFileExtensions": [".vue"],
+        "parser": "@typescript-eslint/parser",
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint",
+        "vue"
+    ],
+    "rules": {
+        "arrow-parens": ["error", "always"],
+        "object-curly-spacing": ["error", "always", { "objectsInObjects": false }],
+        "no-warning-comments": [
+            "off",
+            {
+                "terms": ["TODO", "FIXME"],
+                "location": "anywhere"
+            }
+        ],
+        "indent": [
+            "error",
+            2,
+            {
+                "VariableDeclarator": 2
+            }
+        ],
+        "vue/multi-word-component-names": "off",
+        "capitalized-comments": [
+            "error",
+            "always",
+            {
+                "line": {
+                    "ignorePattern": "console|ignored",
+                    "ignoreInlineComments": true
+                },
+                "block": {
+                    "ignoreInlineComments": true,
+                    "ignorePattern": "console|ignored"
+                }
+            }
+        ]
+    }
+}
