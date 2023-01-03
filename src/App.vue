@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+const meta = import.meta.env.VITE_BASE_API
+console.log(meta)
 </script>
 
 <template>
