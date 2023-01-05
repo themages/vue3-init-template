@@ -14,12 +14,12 @@
     "esModuleInterop": true,
     "lib": ["ESNext", "DOM"],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]
     },
     "preserveValueImports": false,
     "skipLibCheck": true,
     "noEmit": true,
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "/.eslintrc.json"],
+  "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

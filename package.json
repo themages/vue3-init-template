@@ -59,7 +59,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,vue,ts,tsx}": [
-      "pnpm run lint:eslint"
+      "pnpm lint:eslint"
     ]
   }
 }

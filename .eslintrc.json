@@ -11,11 +11,19 @@
         "plugin:vue/vue3-recommended",
         "standard-with-typescript"
     ],
-    "overrides": [],
+    "overrides": [
+        {
+            "files": ["*.ts", "*.vue", "*.js"],
+            "parserOptions": {
+                "project": ["**/tsconfig.json"]
+            }
+        }
+    ],
     "parserOptions": {
-        "project": ["**/tsconfig.json"],
+        "project": ["./tsconfig.json"],
         "extraFileExtensions": [".vue"],
         "parser": "@typescript-eslint/parser",
+        "tsconfigRootDir": "../",
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
