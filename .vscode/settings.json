@@ -92,7 +92,7 @@
 		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
 	},
   "json.trace.server": "off",
-  "cSpell.words": ["vite", "preinstall"],
+  "cSpell.words": ["vite", "preinstall", "pinia", "commitlint", "tailwindcss"],
 	"tabnine.experimentalAutoImports": true,
 	"workbench.iconTheme": "vscode-icons",
 	"typescript.updateImportsOnFileMove.enabled": "always",
