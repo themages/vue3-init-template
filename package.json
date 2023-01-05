@@ -12,7 +12,7 @@
     "preview": "vite preview",
     "type-check": "vue-tsc --noEmit",
     "lint:eslint": "eslint --fix --ext .ts,.tsx,.js,.jsx,.vue src",
-    "preinstall": "npx only-allow pnpm",
+    "preinstall": "npx -y pnpm",
     "postinstall": "husky install",
     "prepare": "husky install"
   },
