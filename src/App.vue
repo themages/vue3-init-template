@@ -1,7 +1,10 @@
 <script setup lang="ts">
+import { ref } from 'vue'
+import type { Ref } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
 const meta = import.meta.env.VITE_BASE_API
-console.log(meta)
+const bool: Ref<boolean> = ref(false)
+console.log(meta, bool)
 </script>
 
 <template>
