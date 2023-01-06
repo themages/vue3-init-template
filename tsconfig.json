@@ -14,7 +14,7 @@
     "esModuleInterop": true,
     "lib": ["ESNext", "DOM"],
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["./src/*"]
     },
     "preserveValueImports": false,
     "skipLibCheck": true,
