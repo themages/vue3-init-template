@@ -23,5 +23,5 @@ module.exports = {
     ],
     // Subject 大小写不做校验
     "subject-case": [0],
-  },
-};
+  }
+}
